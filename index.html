@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+      <div class="logo">
+       <img src="NEWZ.png" class="image" alt="">
+        <li id="politics" onclick="navClick('politics')">Politics</li>
+        <li id="technology" onclick="navClick('technology')">Technology</li>
+        <li  id="sports" onclick="navClick('sports')">Sports</li>
+      </div>
+      <div class="searchbar">
+        <input type="text"placeholder="search here" value="" id="inputData">
+        <button id="searchBtn">Search</button>
+
+      </div>
+    </nav>
+    <div class="category">
+      <h1 id="type"></h1>
+    </div>
+    <div class="cardData">
+      
+    </div>
+    <main></main>
+    <script src="script.js"></script>
+</body>
+</html>
